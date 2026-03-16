@@ -2,7 +2,7 @@
 position: relative;
 min-height: 100vh;
 overflow: hidden;
- height: 50vh;  
+ 
 
 }
 
@@ -19,7 +19,8 @@ overflow: hidden;
  position: absolute;
  inset: 0;
  background: rgba(255, 255, 255, 0.45);
- z-index: 2;
+ z-index: 1; 
+ 
 
 
 
@@ -55,24 +56,25 @@ padding: 16px 0;
     font-size: large;
 
 }
-.hero-content h1{
-    
-    
-    position: relative;
-    z-index: 3;
-    min-height: calc(100vh - 110px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px 0px 120px;
-    margin: -120px auto 0;
+.hero-content {
+  position: relative;
+  z-index: 3;
+  min-height: calc(100vh - 110px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  margin: 40px auto ;
+}
+.hero-content h1:hover{
+    transform: scale(1.6);
+
+
+
 
 }
-.hero-content h1:hover{ 
-    color: #1e1e2f;
-    font-size: clamp(42px, 5vw, 42px);
-    
 
-}
 
