@@ -17,6 +17,8 @@ color: #6b4b2a;
     display: flex;
     gap: 28px;
     align-items: center;
+    color: rgb(3, 65, 44);
+    
 
 
 }
@@ -28,10 +30,12 @@ color: #6b4b2a;
 .hero-face-logo{
     display: block;
     width: 120px;
-    margin: 120px auto 25px;
+    margin: 200px auto 4px;
     transition: transform .6s ease;
     position: relative;
     z-index: 3;
+    transform-style: preserve-3d;
+    
 }
 .hero-face-logo:hover{
     transform: rotatey(-200deg) scale(1.05) ;

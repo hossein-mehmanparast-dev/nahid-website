@@ -2,6 +2,7 @@
 position: relative;
 min-height: 100vh;
 overflow: hidden;
+ height: 50vh;  
 
 }
 
@@ -17,7 +18,7 @@ overflow: hidden;
 .hero-overlay{
  position: absolute;
  inset: 0;
- background: rgba(255, 255, 255, 0.40);
+ background: rgba(255, 255, 255, 0.45);
  z-index: 2;
 
 
@@ -43,6 +44,7 @@ padding: 16px 0;
     justify-content: flex-end;
     align-items: center;
     gap: 24px;
+    font-size: large;
  
 }
 .nav-left{
@@ -50,6 +52,7 @@ padding: 16px 0;
     justify-content: flex-start;
     align-items: center;
     gap: 24px;
+    font-size: large;
 
 }
 .hero-content h1{
@@ -62,14 +65,14 @@ padding: 16px 0;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 80px 0 120px;
+    padding: 20px 0px 120px;
+    margin: -120px auto 0;
 
 }
-.hero-content h1:hover{
+.hero-content h1:hover{ 
     color: #1e1e2f;
-    font-size: clamp(42px, 5vw, 72px);
-    line-height: 1.1;
-    font-weight: 500;
+    font-size: clamp(42px, 5vw, 42px);
+    
 
 }
 
