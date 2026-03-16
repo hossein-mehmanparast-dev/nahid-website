@@ -1,0 +1,46 @@
+.logo{
+justify-content: center;
+text-align: center;
+font-size: 34px;
+letter-spacing: 2px;
+color: #6b4b2a;
+
+}
+.header-logo{
+    width: 85px;
+    height: auto;
+
+}
+
+.nav-left ul , .nav-right ul{
+  
+    display: flex;
+    gap: 28px;
+    align-items: center;
+
+
+}
+.nav-left ul{
+ justify-content: flex-start;
+
+
+}
+.hero-face-logo{
+    display: block;
+    width: 120px;
+    margin: 120px auto 25px;
+    transition: transform .6s ease;
+    position: relative;
+    z-index: 3;
+}
+.hero-face-logo:hover{
+    transform: rotatey(-200deg) scale(1.05) ;
+
+}
+
+
+
+
+
+
+

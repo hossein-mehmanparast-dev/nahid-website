@@ -4,40 +4,67 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <title>nahidco.com</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/components.css">
+        <link rel="stylesheet" href="../css/layout.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        
     </head>
     <body>
+        <section class="hero-banner">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="../assets/videos/nahid-teaser.mp4" type="video/mp4">
+                your browser does not support the video tag.
+
+            </video>
+            <div class="hero-overlay"></div>
+
         <header class="header" >
-            <div class="container">
+            <div class="container header-grid">
 
-                <div class="logo">
-                    <h1>NahidCo</h1>
-                </div>
-
-                <nav class="navbar" >
+                <nav class="nav-left" >
                     <ul>
                         <li><a href="./index.html">Startseite</a></li>
                         <li><a href="./pages/shop.html">Einkauf</a></li>
                         <li><a href="./pages/blog.html">Blog</a></li>
                         <li><a href="./pages/events.html">Events</a></li>
-                        <li><a href="./pages/education.html">Bildung</a></li>
-                        <li><a href="./pages/about.html">Über uns</a></li>
-                        <li><a href="./pages/contact.html">Kontakt</a></li>
+
                     </ul>
 
                 </nav>
+                <div class="logo">
+                    <a href="./index.html">
+                    <img  src="../assets/images/NAHID-LOGO@4x-8-300x256.png" alt="Nahid" class="header-logo">
+                </a>
+                </div>
 
-                <div class="language">
+            <nav class="nav-right">
+                    <ul>
+                        <li><a href="./pages/education.html">Bildung</a></li>
+                        <li><a href="./pages/about.html">Über uns</a></li>
+                        <li><a href="./pages/contact.html">Kontakt</a></li>
+
+                    </ul>
+                
+                <div class="language-switcher">
+                    
 
 
-                    <a href="../de/index.html">DE</a>
+                    <a href="./index.html" class="active">DE</a>
                     <a href="../en/index.html">EN</a>
                 </div>
-                    
+            </nav>        
            
             </div>
 
-        </header>
+        </header> 
+        <div class="hero-content">
+            <div class="container">
+                <img src="../assets/images/Nahid-2@4x-8-183x300.png" alt="Nahid Face" class="hero-face-logo">
+                <h1>Die Königin der persischen Aromen</h1>
+            </div>
+        </div>
+    </section>
         <main>
             <section class="hero">
             <div class="container">
