@@ -1,7 +1,9 @@
+/* header styles */
 .hero-banner{ 
 position: relative;
 min-height: 100vh;
 overflow: hidden;
+background: #097457;
  
 
 }
@@ -76,5 +78,8 @@ padding: 16px 0;
 
 
 }
+
+
+
 
 
