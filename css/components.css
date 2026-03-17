@@ -1,3 +1,4 @@
+/* Header Styles */
 .logo{
  /* justify-content: center;  */
 text-align: center;
@@ -93,7 +94,7 @@ color: #6b4b2a;*/
 
 }
 
-/* Main Content Styles */
+/* Main section 1 Styles */
 
 .about-preview{
     padding: 100px 0;
@@ -196,6 +197,16 @@ color: #6b4b2a;*/
     background: #c9ad93;
     transform: translateY(-2px);
 }
+
+/* main section 2 */
+
+.product-group{
+
+
+    
+}
+
+
 
 
 
