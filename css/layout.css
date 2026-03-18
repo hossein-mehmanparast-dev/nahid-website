@@ -1,0 +1,85 @@
+/* header styles */
+.hero-banner{ 
+position: relative;
+min-height: 100vh;
+overflow: hidden;
+background: #097457;
+ 
+
+}
+
+.hero-video{
+ position: absolute;
+ inset: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+
+}
+
+.hero-overlay{
+ position: absolute;
+ inset: 0;
+ background: rgba(255, 255, 255, 0.45);
+ z-index: 1; 
+ 
+
+
+
+} 
+.header{
+position: relative;
+z-index: 3;
+padding: 16px 0;
+
+
+}
+.header-grid{
+ display: grid;
+ grid-template-columns: 1fr auto 1fr;
+ align-items: center;
+ gap: 24px;
+
+}
+
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    font-size: large;
+ 
+}
+.nav-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    font-size: large;
+
+}
+.hero-content {
+  position: relative;
+  z-index: 3;
+  min-height: calc(100vh - 110px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  margin: 40px auto ;
+}
+.hero-content h1:hover{
+    transform: scale(1.6);
+
+
+
+
+}
+
+
+
+
+
