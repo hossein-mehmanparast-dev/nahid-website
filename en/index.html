@@ -4,62 +4,155 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>nahidco.com</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/components.css">
+        <link rel="stylesheet" href="../css/layout.css">
+        <link rel="stylesheet" href="../css/responsive.css">
     </head>
     <body>
-        <header class="header"> 
-            <div class="container">
+        <section class="hero-banner">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="../assets/videos/nahid-teaser.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
-                <div class="logo">
-                    <h1>NahidCo</h1>
+            <div class="hero-overlay"></div>
+
+            <header class="header">
+                <div class="container header-grid">
+
+                    <nav class="nav-left">
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./pages/shop.html">Shop</a></li>
+                            <li><a href="./pages/blog.html">Blog</a></li>
+                            <li><a href="./pages/events.html">Events</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="../assets/images/NAHID-LOGO@4x-8-300x256.png" alt="Nahid Logo" class="header-logo">
+                        </a>
+                    </div>
+
+                    <nav class="nav-right">
+                        <ul>
+                            <li><a href="./pages/education.html">Education</a></li>
+                            <li><a href="./pages/about.html">About Us</a></li>
+                            <li><a href="./pages/contact.html">Contact</a></li>
+                        </ul>
+
+                        <div class="language-switcher">
+                            <a href="../de/index.html">DE</a>
+                            <span>/</span>
+                            <a href="./index.html" class="active">EN</a>
+                        </div>
+                    </nav>
+
                 </div>
+            </header>
 
-                <nav class="navbar" >
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./pages/shop.html">Shop</a></li>
-                        <li><a href="./pages/blog.html">Blog</a></li>
-                        <li><a href="./pages/events.html">Events</a></li>
-                        <li><a href="./pages/education.html">Education</a></li>
-                        <li><a href="./pages/about.html">About Us</a></li>
-                        <li><a href="./pages/contact.html">Contact</a></li>
-                    </ul>
-
-                </nav>
-
-                <div class="language">
-
-
-                    <a href="../de/index.html">DE</a>
-                    <a href="../en/index.html">EN</a>
+            <div class="hero-content">
+                <div class="container">
+                    <img src="../assets/images/Nahid-2@4x-8-183x300.png" alt="Nahid portrait" class="hero-face-logo">
+                    <h1>The Queen of Persian Flavors</h1>
                 </div>
-                    
-           
             </div>
+        </section>
 
-        </header>
         <main>
-            <section class="hero">
-            <div class="container">
-                <h2>Welcome to NahidCo</h2>
 
-                <p>Multi-functional website with shop, blog, events and training.</p>
-            </div>
+            <section class="about-preview">
+                <div class="container">
+                    <div class="about-card">
 
+                        <div class="about-left">
+                            <h2>Nahid UG <br> (Entrepreneurial Company <br> with Limited Liability)</h2>
+
+                            <div class="about-gallery">
+                                <img src="../assets/images/photo_2024-01-07_22-18-55-1-195x300.jpg" alt="Nahid product 1">
+                                <img src="../assets/images/photo_2024-01-07_22-18-51-225x300.jpg" alt="Nahid product 2">
+                                <img src="../assets/images/photo_2024-01-07_22-18-59-233x300.jpg" alt="Nahid product 3">
+                            </div>
+                        </div>
+
+                        <div class="about-right">
+                            <p>
+                                The Nahid brand focuses on the development of date-based products.
+                                Its vision goes beyond offering ordinary products and continuously
+                                seeks innovative and creative ways to provide its target audience
+                                with a unique experience. The brand explores attractive flavors and
+                                aims to build customer loyalty through its distinctive and special offerings.
+                            </p>
+
+                            <a href="./pages/about.html" class="about-btn">About Us</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="product-groups">
+                <div class="container">
+                    <h2>Product Groups</h2>
+
+                    <div class="slider-wrapper">
+                        <div class="product-group-grid">
+
+                            <article class="group-card">
+                                <img src="../assets/images/سرکه-بالزامیک-خرما-300x300.png" alt="Date balsamic vinegar">
+                                <h3>Date Balsamic <br> Vinegar</h3>
+                            </article>
+
+                            <article class="group-card">
+                                <img src="../assets/images/کاپوچینو-300x300.png" alt="Cappuccino with date flavor">
+                                <h3>Cappuccino with <br> Date Flavor</h3>
+                            </article>
+
+                            <article class="group-card">
+                                <img src="../assets/images/کرم-شکلاتی-300x300.png" alt="Date chocolate cream">
+                                <h3>Date Chocolate Cream</h3>
+                            </article>
+
+                            <article class="group-card">
+                                <img src="../assets/images/شیرینی-خرما-300x300.png" alt="Gift box with pralines">
+                                <h3>Gift Box with <br> Pralines</h3>
+                            </article>
+
+                            <article class="group-card">
+                                <img src="../assets/images/شیره-خرما-300x300.png" alt="Date syrup">
+                                <h3>Date Syrup</h3>
+                            </article>
+
+                            <article class="group-card">
+                                <img src="../assets/images/کوکی-خرما-300x300.png" alt="Butter cookies">
+                                <h3>Butter Cookies</h3>
+                            </article>
+
+                            <article class="group-card">
+                                <img src="../assets/images/بیسکوییت-300x300.png" alt="Date crispbread">
+                                <h3>Date Crispbread</h3>
+                            </article>
+
+                            <article class="group-card">
+                                <img src="../assets/images/خرما-مضافتی-300x300.png" alt="Persian Mazafati dates">
+                                <h3>Persian Mazafati Dates</h3>
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
             </section>
 
         </main>
+
         <footer class="footer">
             <div class="container">
                 <p>&copy; 2026 NahidCo. All rights reserved.</p>
             </div>
-
-
-
         </footer>
-        
-        <script src="../js/script.js"></script>
-        
-    </body>
 
+        <script src="../js/script.js"></script>
+    </body>
 </html>
