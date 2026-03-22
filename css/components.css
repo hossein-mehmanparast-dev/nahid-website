@@ -199,6 +199,15 @@ color: #6b4b2a;*/
 }
 
 /* main section 2 */
+.product-groups{
+    padding: 100px 0;
+    background-image: url("../assets/images/Palm-Tree-3-300x288.png"), linear-gradient(135deg, #0f6f73, #1b8a8d) ;
+    /* background: linear-gradient(135deg, #0f6f73, #1b8a8d); */
+    overflow: hidden;
+
+}
+
+
 
 
 
