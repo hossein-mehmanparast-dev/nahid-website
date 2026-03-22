@@ -2,48 +2,104 @@
 <html lang="de">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>nahidco.com</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/components.css">
+        <link rel="stylesheet" href="../css/layout.css">
+        <link rel="stylesheet" href="../css/responsive.css">
+        
     </head>
     <body>
-        <header class="header">
-            <div class="container">
+        <section class="hero-banner">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="../assets/videos/nahid-teaser.mp4" type="video/mp4">
+                your browser does not support the video tag.
 
-                <div class="logo">
-                    <h1>NahidCo</h1>
-                </div>
+            </video>
+            <div class="hero-overlay"></div>
 
-                <nav class="navbar" >
+        <header class="header" >
+            <div class="container header-grid">
+
+                <nav class="nav-left" >
                     <ul>
                         <li><a href="./index.html">Startseite</a></li>
                         <li><a href="./pages/shop.html">Einkauf</a></li>
                         <li><a href="./pages/blog.html">Blog</a></li>
                         <li><a href="./pages/events.html">Events</a></li>
-                        <li><a href="./pages/education.html">Bildung</a></li>
-                        <li><a href="./pages/about.html">Über uns</a></li>
-                        <li><a href="./pages/contact.html">Kontakt</a></li>
+
                     </ul>
 
                 </nav>
+                <div class="logo">
+                    <a href="./index.html">
+                    <img  src="../assets/images/NAHID-LOGO@4x-8-300x256.png" alt="Nahid Logo" class="header-logo">
+                </a>
+                </div>
 
-                <div class="language">
+            <nav class="nav-right">
+                    <ul>
+                        <li><a href="./pages/education.html">Bildung</a></li>
+                        <li><a href="./pages/about.html">Über uns</a></li>
+                        <li><a href="./pages/contact.html">Kontakt</a></li>
+
+                    </ul>
+                
+                <div class="language-switcher">
+                    
 
 
-                    <a href="../de/index.html">DE</a>
+                    <a href="./index.html" class="active">DE</a>
+                    <span>/</span>
                     <a href="../en/index.html">EN</a>
                 </div>
-                    
+            </nav>        
            
             </div>
 
-        </header>
-        <main>
-            <section class="hero">
+        </header> 
+        <div class="hero-content">
             <div class="container">
-                <h2>Willkommen bei NahidCo</h2>
+                <img src="../assets/images/Nahid-2@4x-8-183x300.png" alt="Nahid Face" class="hero-face-logo">
+                <h1>Die Königin der persischen Aromen</h1>
+            </div>
+        </div>
+    </section>
 
-                <p>Multifunktionale Website mit Shop, Blog, Veranstaltungen und Schulungen.</p>
+
+    <main>
+
+            <section class="about-preview">
+            <div class="container">
+                <div class="about-card">
+
+                    <div class="about-left">
+                        <h2>Nahid UG <br> (Unternehmergesellschaft <br> haftungsbeschränkt)</h2>
+
+                        <div class="about-gallery">
+                            <img src="../assets/images/photo_2024-01-07_22-18-55-1-195x300.jpg" alt="Nahid product 1">
+                            <img src="../assets/images/photo_2024-01-07_22-18-51-225x300.jpg" alt="Nahid product 2">
+                            <img src="../assets/images/photo_2024-01-07_22-18-59-233x300.jpg" alt="Nahid product 3">
+                        </div>
+                    </div>
+
+                    <div class="about-right">
+                        <p>
+                            Die Marke Nahid konzentriert sich auf die Entwicklung
+                            dattelbasierten Produkte. Die Vision der Marke geht über
+                            das Angebot gewöhnlicher Produkte hinaus und sucht ständig
+                            nach innovativen und neuartigen Möglichkeiten, um Ihrer Zielgruppe
+                            ein einzigartiges Erlebnis zu bieten. Sie durchsucht den Markt nach
+                            attraktiven Geschmacksrichtungen und hat sich zum Ziel gesetzt, dies
+                            zu erreichen, treue Kunden mit seinen einzigartigen Angeboten.
+
+                        </p>
+
+                        <a href="./pages/about.html" class="about-btn">Über uns</a>
+                    </div>
+
+                </div>
             </div>
         </section>
         <section class="product-groups">
@@ -69,7 +125,7 @@
                         </article>
 
                         <article class="group-card">
-                            <img src="../assets/images/شیرینی-خرما-300x300.png" alt="Geschenkbox mi Paralinen">
+                            <img src="../assets/images/شیرینی-خرما-300x300.png" alt="Geschenkbox mit Paralinen">
                             <h3>Geschenkbox mit <br> paralinen</h3>
                         </article>
 
