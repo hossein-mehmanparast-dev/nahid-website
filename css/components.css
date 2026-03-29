@@ -198,19 +198,21 @@ color: #6b4b2a;*/
 }
 
 /* main section 2 */
-.product-groups {
-  padding: 80px 0;
+/* .product-groups { 
+  
    background-image: url("../assets/images/coconut-palm-tree-scaled-300x200.jpg"); 
   background-size: cover;
   opacity: 1.6;
-  background-repeat: no-repeat;
+  
   background: linear-gradient(135deg, #158b90, #0f6f73); 
-}
+}*/
   .product-groups{
+    padding: 80px 0;
   background-image:linear-gradient(rgba(15, 111, 115, 0.90), rgba(15, 111, 115, 0.9)), url("../assets/images/coconut-palm-tree-scaled-300x200.jpg");
   background-size: cover;
   opacity: 1.6;
-background-position: center;}
+background-position: center;
+background-repeat: no-repeat;}
 
 .product-groups-title {
   margin: 0 0 36px;
@@ -261,6 +263,7 @@ background-position: center;}
   font-weight: 700;
 
 }
+/* main section 3  */
 
 
 
