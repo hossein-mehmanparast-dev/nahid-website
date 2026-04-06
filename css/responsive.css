@@ -256,3 +256,140 @@
     align-self: stretch;
   }
 }
+/* main section 2 scroll */
+
+/* ========= Tablet (تا 900px) ========= */
+@media (max-width: 900px) {
+
+  .product-groups-title {
+    font-size: 36px;
+  }
+
+  .product-group-card {
+    flex: 0 0 170px;
+    width: 170px;
+  }
+
+  .product-group-image {
+    height: 270px;
+    transform: scale(1.08);
+  }
+
+  .product-group-card:hover .product-group-image {
+    transform: scale(1.15);
+  }
+
+  .product-group-card h3 {
+    font-size: 17px;
+  }
+}
+
+
+/* ========= Mobile (تا 600px) ========= */
+@media (max-width: 600px) {
+
+  .product-groups {
+    padding: 60px 0;
+  }
+
+  .product-groups-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .product-groups-track {
+    gap: 16px;
+  }
+
+  .product-group-card {
+    flex: 0 0 150px;
+    width: 150px;
+  }
+
+  .product-group-image {
+    height: 240px;
+    transform: scale(1.05);
+  }
+
+  .product-group-card:hover .product-group-image {
+    transform: scale(1.12);
+  }
+
+  .product-group-card h3 {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+}
+/* main section 3 book  */
+
+/* ========= Tablet (تا 900px) ========= */
+@media (max-width: 900px) {
+  .book-section {
+    padding: 80px 0;
+  }
+
+  .book-card {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .book-card::after {
+    right: 8%;
+    top: 35px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .book-text h2 {
+    font-size: 48px;
+  }
+
+  .book-text h3 {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .book-text p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .book-image {
+    max-width: 100%;
+    border-top-left-radius: 120px;
+  }
+}
+
+/* ========= Mobile (تا 600px) ========= */
+@media (max-width: 600px) {
+  .book-section {
+    padding: 60px 0;
+  }
+
+  .book-card {
+    gap: 24px;
+  }
+
+  .book-text h2 {
+    font-size: 34px;
+  }
+
+  .book-text h3 {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+
+  .book-text p {
+    font-size: 15px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+  }
+
+  .book-card::after {
+    display: none;
+  }
+
+  .book-image {
+    border-top-left-radius: 90px;
+  }
+}
